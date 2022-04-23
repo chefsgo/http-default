@@ -1,4 +1,4 @@
-module 54hub.com/argo/http-default
+module 54hub.com/chefsgo/http-default
 
 go 1.17
 
