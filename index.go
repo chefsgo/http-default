@@ -1,13 +1,13 @@
 package http_default
 
 import (
-	"github.com/chefsgo/chef"
+	"github.com/chefsgo/http"
 )
 
-func Driver() chef.HttpDriver {
-	return &defaultHttpDriver{}
+func Driver() http.Driver {
+	return &defaultDriver{}
 }
 
 func init() {
-	chef.Register("default", Driver())
+	http.Register("default", Driver())
 }
